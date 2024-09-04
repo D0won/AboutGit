@@ -54,8 +54,25 @@
 ## clone
 - 코드가 없는 상태에서 전체 코드를 다운로드 받을 경우
 
+- 현재 위치에 리퍼지토리 이름의 폴더를 만들고 파일을 가져온다.
+> git clone <git-remote-url> <디렉토리> (파일명 작성)
+> git clone <git-remote-url> . (파일명이 리퍼지토리 이름)
+
 ## pull
 - 코드가 있는 상태에서 변경된 부분만 받을 경우
 
+## 브랜치 만들기
+- 브랜치 목록 확인
+> git branch
+
+- 브랜치 생성
+> git branch test01
+
+- 브랜치 이동
+> git switch test01
+
+- 브랜치에서 소스 코딩, add, commit 작업 진행
+
 ## 파일 제외 시키기
 - gitignore
+
