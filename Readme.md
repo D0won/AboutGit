@@ -73,6 +73,19 @@
 
 - 브랜치에서 소스 코딩, add, commit 작업 진행
 
+## 브랜치 병합
+
+- main에서(main으로 코드 합류)
+> git merge 브랜치명
+> git add .
+> git commit -m "메세지"
+
+## 브랜치 삭제
+> git branch -d 브랜치명
+
+## 브랜치 복구
+> git branch 브랜치명 커밋번호
+
 ## 파일 제외 시키기
 - gitignore
 
