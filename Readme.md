@@ -86,6 +86,8 @@
 ## 브랜치 복구
 > git branch 브랜치명 커밋번호
 
+> git log --graph --oneline --all
+
 ## 파일 제외 시키기
 - gitignore
 
