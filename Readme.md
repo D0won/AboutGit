@@ -1,4 +1,4 @@
-## 명령어 정리
+# 명령어 정리
 
 1. git으로 관리할 경로까지이동
 
@@ -120,7 +120,7 @@
 > git add . <br>
 > git commit -m "캐시 삭제"
 
-10. reset
+## reset
 
 > git log
 > git log --oneline
@@ -167,3 +167,8 @@
 git revert --no-commit HEAD~3 #3단계를 취소함
 
 - revert 후 commit하고 push하면 된다.
+
+## 깃 구성
+- 작업트리(파일) - 스테이지 - 저장소 로 구성
+- git add . -> 스테이지로 파일 이동
+- git commit -m -> 저장소로 파일 이동
